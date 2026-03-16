@@ -1,0 +1,7 @@
+export enum GamePhase {
+  BOOT = 'BOOT',
+  PLAYER_TURN = 'PLAYER_TURN',
+  ENEMY_TURN = 'ENEMY_TURN',
+  RESOLVING_LINES = 'RESOLVING_LINES',
+  GAME_OVER = 'GAME_OVER',
+}
